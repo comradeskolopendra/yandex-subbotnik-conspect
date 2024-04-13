@@ -27,18 +27,21 @@ isolavted-vm - позволяеть изолировать так же memory he
 // quick js - must have.
 // quick js-emscripten - связка между wasm и js/ts.
 
-// что такое lambda-functions?
-// НЕ ПОНЯЛ КОНЦЕПТ WASM.
-
-// не понял quick.js-emscripten.
-
 
 interop - все базовые типы.
 
 spectre - unfixable проблема. 
 
-// spectre = ?
-
 // песочнику построить можно, но сложно. вопросы к безопасности, много дырок.
 // quick js - новый движок.
 // с wasm можно строить песочницы.
+
+// есть вариант ещё с worker.
+
+// уязвимости обычно на уровне процессора при осздании коастомной песочницы.
+
+
+// что такое lambda-functions?
+// НЕ ПОНЯЛ КОНЦЕПТ WASM.
+// spectre = ?
+// не понял quick.js-emscripten.
